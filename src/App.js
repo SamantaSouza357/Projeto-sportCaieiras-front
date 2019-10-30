@@ -1,10 +1,15 @@
 import React from 'react';
-import PlacarContainer from './componentes/PlacarContainer';
+import { BrowserRouter as Router , Route } from 'react-router-dom';
+import Navbar from './componentes/Navbar.js';
+import Header from './componentes/Header.js';
 
-function App() {
+
+const App = () => {
   return (
     <div className="App">
-      <PlacarContainer />
+      <Navbar/>
+      <Header/>
+
     </div>
   );
 }
